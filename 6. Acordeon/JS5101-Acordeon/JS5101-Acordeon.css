@@ -1,0 +1,21 @@
+.acordeon{
+	background-color: rgb(233, 228, 228);
+	color:#444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1em;
+	transition: 0.5s;
+}
+.activo, .acordeon:hover{
+	background-color: #1773b0;
+}
+.panel{
+	padding: 0 1em;
+	display: none;
+	background-color: white;
+}
+h2{ text-align: center; }

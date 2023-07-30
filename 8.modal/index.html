@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DOM</title>
+</head>
+<body>
+   <div class="contenido">       
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia soluta quis repellat quod 
+    officia non eum excepturi architecto sit,tenetur, minus eligendi impedit vel quisquam ex, perspiciatis 
+    animi suscipit necessitatibus?        
+    </p>
+    <button class="boton">Modal</button>
+   </div>
+
+   <dialog class="modal">
+    <p>Hola, cual es tu nombre?</p>
+    <form class="form" method="dialog" > <!-- para formularios se deb añadir el method="dialog"-->
+        <label for="name">Name</label>
+        <input type="text" name="name">
+        <button type="submit">Enviar</button>
+    </form>
+    <button class="botoncerrar">cerrar</button>
+   </dialog>
+
+
+<script src="./main.js" defer> </script>
+</body>
+</html>

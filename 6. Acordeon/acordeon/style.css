@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.container{
+ width: 500px;
+ margin:200px auto;
+ 
+}
+.menu{
+    width: 100%;
+    background-color: rgb(101, 74, 126);
+}
+ul{
+ width: 100%;
+ padding: 0;
+ 
+}
+li{
+ width: 100%;
+ height: 40px;
+ list-style: none;
+ border-bottom: 1px solid white;
+ transition: .7s;
+ overflow: hidden;
+}
+.bloque{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(87, 87, 164);
+  color: white;
+  cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.fa-chevron-down{
+    transition: .3s;
+}
+
+p{
+    padding: 10px;
+    color: white;
+   
+}
+
+/*clases para agregar al hacer un click*/
+
+.scale{
+    height: 180px;
+}
+.rotate{
+    transform: rotate(180deg);
+}
